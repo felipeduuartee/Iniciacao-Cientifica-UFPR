@@ -34,14 +34,3 @@ O segundo código, localizado no diretório `AplicacaoRedeNeural`, permite usar 
 
 6. Salvamento do DataFrame Atualizado: O DataFrame atualizado com as previsões é salvo em 'WineQT_novos_com_predicoes.csv'.
 
-## Como Usar Este Repositório
-
-1. Clone este repositório para o seu ambiente local.
-
-2. Certifique-se de que as bibliotecas necessárias estão instaladas e de que os conjuntos de dados estão disponíveis no mesmo diretório.
-
-3. Execute o código `treinamento_rede_neural.py` para treinar a rede neural e salvar o modelo.
-
-4. Execute o código `uso_modelo_treinado.py` para usar o modelo treinado e prever a qualidade de novos vinhos.
-
-Certifique-se de personalizar os nomes dos arquivos de entrada e saída, se necessário. Este repositório é uma demonstração de como treinar uma rede neural para previsão de qualidade de vinhos e usá-la para fazer previsões em novos dados. Você pode adaptar e expandir o projeto de acordo com suas necessidades.
