@@ -4,7 +4,7 @@ Bem-vindo ao Repositório de Previsão de Qualidade de Vinhos com Rede Neural. E
 
 ## Treinamento da Rede Neural
 
-O primeiro código, localizado no arquivo `treinamento_rede_neural.py`, é responsável pelo treinamento da rede neural. Aqui estão os principais passos realizados neste código:
+O primeiro código, localizado no diretório `TreinamentoRedeNeural`, é responsável pelo treinamento da rede neural. Aqui estão os principais passos realizados neste código:
 
 1. Importação de Bibliotecas: As bibliotecas necessárias, como `pandas`, `scikit-learn`, e `tensorflow`, são importadas para carregar dados, dividir conjuntos de treinamento e teste, normalizar os dados e criar a rede neural.
 
@@ -20,7 +20,7 @@ O primeiro código, localizado no arquivo `treinamento_rede_neural.py`, é respo
 
 ## Uso do Modelo Treinado para Prever Qualidade de Novos Vinhos
 
-O segundo código, localizado no arquivo `uso_modelo_treinado.py`, permite usar o modelo de rede neural treinado para prever a qualidade de novos vinhos. Aqui estão os passos envolvidos:
+O segundo código, localizado no diretório `AplicacaoRedeNeural`, permite usar o modelo de rede neural treinado para prever a qualidade de novos vinhos. Aqui estão os passos envolvidos:
 
 1. Carregamento do Modelo Treinado e do Objeto Scaler: O modelo previamente treinado é carregado a partir do arquivo 'modelo_vinho.h5', e o objeto `scaler` usado para normalizar os dados de entrada é carregado a partir de 'scaler.pkl'.
 
