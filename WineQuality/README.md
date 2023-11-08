@@ -1,4 +1,4 @@
-# README.md - Treinamento de Rede Neural para Previsão de Qualidade de Vinhos
+# Treinamento de Rede Neural para Previsão de Qualidade de Vinhos
 
 Este repositório contém um código Python que ilustra o treinamento de uma rede neural para prever a qualidade de vinhos. O projeto inclui a importação de bibliotecas necessárias, o carregamento de dados, a divisão dos dados em conjuntos de treinamento e teste, a normalização dos dados de entrada e a definição e treinamento do modelo da rede neural. Além disso, o modelo treinado e o objeto `scaler` utilizado para normalizar os dados são salvos para uso futuro.
 
